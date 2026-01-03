@@ -1,10 +1,14 @@
 import "../css/Home.css";
+import Navbar from "./Navbar";
 
 export default function Home() {
     
   return (
+    <div>
+      <Navbar />  
+      
     <div className="home">
-
+    
       {/* HERO SECTION */}
       <section className="hero">
         <img src="/img//robot-6654032.png" alt="robot-gif" style={{height:400,width:400}}  className="robot-gif"/>
@@ -165,6 +169,7 @@ export default function Home() {
         <p>📧 roboclub@email.com</p>
       </footer>
 
+    </div>
     </div>
   );
 }
