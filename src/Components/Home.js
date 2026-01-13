@@ -70,7 +70,7 @@ export default function Home() {
 
 
           <div className="highlight-card">
-            <h3>🤖 Real-world Projects</h3>
+            <h3>Real-world Projects</h3>
             <img src="/img/scroll1.jpeg" alt="real-projects" style={{height:100,width:100}} />
             <p>Work on real-world projects that solve practical problems.</p>
             <p className="descriptions">Tackle real-world challenges through collaborative projects, applying theoretical knowledge to tangible outcomes and developing problem-solving skills.</p>
@@ -79,7 +79,7 @@ export default function Home() {
 
 
           <div className="highlight-card">
-            <h3>💡 Innovation & Research</h3>
+            <h3>Innovation & Research</h3>
             <img src="/img/scroll2.jpeg" alt="innovation-research" style={{height:100,width:100}} />
             <p>Explore cutting-edge research and develop innovative solutions.</p>
             <p className="descriptions">Dive into the latest advancements in robotics and AI, fostering a culture of innovation in their research endeavors.</p>

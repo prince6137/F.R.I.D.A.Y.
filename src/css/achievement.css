@@ -1,0 +1,110 @@
+.achievements-page {
+  padding: 70px 10%;
+  color: #f5fffe;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 3.8rem;
+  text-shadow: 0 0 20px #0bd3c7;
+}
+
+.page-subtitle {
+  text-align: center;
+  margin-bottom: 60px;
+  opacity: 0.85;
+}
+
+/* STATS */
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  margin-bottom: 80px;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.stat-card h2 {
+  font-size: 2.5rem;
+  color: #0bd3c7;
+}
+
+/* TIMELINE */
+.timeline-section h2 {
+  margin-bottom: 30px;
+}
+
+.timeline {
+  border-left: 3px solid #0bd3c7;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #0bd3c7;
+  border-radius: 50%;
+  position: absolute;
+  left: -38px;
+  top: 5px;
+}
+
+.year {
+  font-weight: bold;
+  color: #0bd3c7;
+}
+
+/* ACHIEVEMENT SECTIONS */
+.achievement-section {
+  margin-top: 80px;
+}
+
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.achievement-card {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 20px;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-8px);
+}
+
+.achievement-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+/* PUBLICATIONS */
+.publication-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.publication-item {
+  padding: 20px;
+  border-left: 4px solid #0bd3c7;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+}

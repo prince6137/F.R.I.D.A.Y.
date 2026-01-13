@@ -8,7 +8,7 @@ function Navbar() {
       <input type="checkbox" id="check" />
 
       <label htmlFor="check" className="checkbtn">
-        <i className="fas fa-bars"></i>
+        ☰
       </label>
 
       <img src="/img/logo192.png" alt="logo" className="logo-img" />
@@ -26,5 +26,4 @@ function Navbar() {
     </nav>
   );
 }
-
 export default Navbar;
