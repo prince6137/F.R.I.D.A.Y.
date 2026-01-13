@@ -19,6 +19,14 @@ const coreTeam = [
     github: "#",
     description: "Driving software development and integration.",
   },
+  {
+    name: "Prince Yadav",
+    role: "Vice President",
+    img: "/img/scroll2.jpeg",
+    linkedin: "#",
+    github: "#",
+    description: "Driving software development and integration.",
+  }
 ];
 
 const teamMembers = {

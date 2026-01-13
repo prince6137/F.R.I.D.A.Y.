@@ -94,7 +94,8 @@
   background: #053f48;
   padding: 30px;
   border-radius: 20px;
-  max-width: 600px;
+  margin: 10px;
+  max-width: 500px;
   width: 90%;
 }
 

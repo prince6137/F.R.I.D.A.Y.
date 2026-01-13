@@ -38,7 +38,7 @@ const projectsData = [
     title: "Smart IoT Home System",
     year: 2023,
     type: "IoT",
-    img: "/img/project4.jpg",
+    img: "/img/scroll4.jpeg",
     tech: ["ESP32", "MQTT", "Sensors"],
     description:
       "Built an IoT-based smart home solution enabling remote monitoring and control of appliances. The system integrates multiple sensors and supports real-time data visualization through a web dashboard.",
@@ -68,8 +68,10 @@ export default function Projects() {
   });
 
   return (
+    <>
+    <Navbar/>
     <section className="projects-page">
-        <Navbar/>
+       
       <h1>Our Projects</h1>
       <p className="subtitle">
         Exploring innovation through robotics, AI, drones, and IoT.
@@ -135,6 +137,6 @@ export default function Projects() {
           </div>
         </div>
       )}
-    </section>
+    </section></>
   );
 }

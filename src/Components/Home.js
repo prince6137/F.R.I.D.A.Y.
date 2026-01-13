@@ -5,7 +5,7 @@ export default function Home() {
     
   return (
     <div>
-      <Navbar />  
+      <Navbar  fixed="top"/>  
       
     <div className="home">
     
