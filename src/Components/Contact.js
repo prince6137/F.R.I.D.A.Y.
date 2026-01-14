@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/contact.css";
 import Navbar from "./Navbar";
+import Footer from "./footer";
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [openFAQ, setOpenFAQ] = useState(null);
@@ -34,15 +35,18 @@ export default function Contact() {
 
         {/* LEFT: CONTACT INFO */}
         <div className="contact-info glow-box">
-          <h2>📌 Contact Details</h2>
+          <h2>Contact Details</h2>
           <p><strong>Email:</strong> roboclub@email.com</p>
           <p><strong>Phone:</strong> +91 98765 43210</p>
           <p><strong>Location:</strong> Engineering Block, Room 204</p>
           <p><strong>Meetings:</strong> Wednesdays, 4–6 PM</p>
 
+
           {/* MAP PLACEHOLDER */}
+          <h1>Campus Location Map</h1>
           <div className="map-box">
-            <p>📍 Campus Location Map</p>
+            
+            <img src="/img/map.jpg" alt="Campus Location Map"/>
           </div>
 
           {/* SOCIAL LINKS */}
@@ -56,7 +60,7 @@ export default function Contact() {
 
         {/* RIGHT: CONTACT FORM */}
         <div className="contact-form glow-box">
-          <h2>✉️ Send Us a Message</h2>
+          <h2>Send Us a Message</h2>
 
           {!submitted ? (
             <form
@@ -82,7 +86,7 @@ export default function Contact() {
             </form>
           ) : (
             <div className="success-msg">
-              ✅ Thank you! We’ll get back to you soon.
+              Thank you! We’ll get back to you soon.
             </div>
           )}
         </div>
@@ -91,7 +95,7 @@ export default function Contact() {
 
       {/* FAQ SECTION */}
       <section className="faq-section">
-        <h2>❓ Frequently Asked Questions</h2>
+        <h2> Frequently Asked Questions</h2>
 
         {faqs.map((faq, index) => (
           <div
@@ -105,6 +109,8 @@ export default function Contact() {
         ))}
       </section>
 
-    </div></>
+    </div>
+    <Footer/>
+    </>
   );
 }

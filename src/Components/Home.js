@@ -1,6 +1,6 @@
 import "../css/Home.css";
 import Navbar from "./Navbar";
-
+import Footer  from "./footer";
 export default function Home() {
     
   return (
@@ -52,7 +52,7 @@ export default function Home() {
 
 
           <div className="highlight-card">
-            <h3>🤖Robotic Competition</h3>
+            <h3>Robotic Competition</h3>
             <img src="/img/scroll3.jpeg" alt="robot-competition" style={{height:100,width:100}} />
             <p>Compete in robotics challenges and showcase your skills.</p>
             <p className="descriptions">Participate in high-energy robotics competitions where innovation meets execution, helping members turn ideas into award-winning robotic solutions.</p>
@@ -147,28 +147,21 @@ export default function Home() {
       {/* ACHIEVEMENTS */}
       <section className="achievements">
         <h2>Recent Achievements</h2>
-        <div className="achievement-cards">
-          <div className="achievement-card">
-            🥇 1st Prize – National Robotics Challenge
+        <div className="achievement-car">
+          <div className="achievement-ca">
+             1st Prize – National Robotics Challenge
+            <img src="/img/drone.jpg" alt="competition" />
           </div>
           
-          <div className="achievement-card">
-            🥈 2nd Place – AI Bot Competition
+          <div className="achievement-ca">
+            2nd Place – AI Bot Competition
+            <img src="/img/robotic-lab.jpg" alt="competition" />
           </div>
         </div>
       </section>
 
       {/* FOOTER */}
-      <footer className="footer">
-        <p>© 2025 RoboInnovators Club</p>
-        <div className="socials">
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
-        </div>
-        <p>📧 roboclub@email.com</p>
-      </footer>
-
+      <Footer />
     </div>
     </div>
   );

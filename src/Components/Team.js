@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Team.css";
 import Navbar from "./Navbar";
-
+import Footer from "./footer";
 const coreTeam = [
   {
     name: "Roushni Kumari",
@@ -110,10 +110,11 @@ export default function Team() {
       {/* ALUMNI */}
       <section className="alumni">
         <h2>Notable Alumni</h2>
-        <p>🏆 Alumni working at ISRO, DRDO, and top robotics startups.</p>
+        <p>Alumni working at ISRO, DRDO, and top robotics startups.</p>
       </section>
 
     </div>
+    <Footer />
     </div>
   );
 }

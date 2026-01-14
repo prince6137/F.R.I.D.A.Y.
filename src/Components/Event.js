@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/events.css";
 import Navbar from "./Navbar";  
+import Footer from "./footer";
 const upcomingEventsData = [
   {
     title: "Autonomous Drone Workshop",
@@ -106,6 +107,8 @@ export default function Events() {
         </div>
       </section>
 
-    </div></>
+    </div>
+    <Footer />
+    </>
   );
 }

@@ -1,8 +1,11 @@
 import React from "react";
 import "../css/achievement.css";
-
+import Navbar from "./Navbar";
+import Footer from "./footer";  
 export default function Achievements() {
   return (
+    <>
+    <Navbar />
     <div className="achievements-page">
 
       {/* PAGE HEADER */}
@@ -38,15 +41,15 @@ export default function Achievements() {
         <div className="timeline">
           <div className="timeline-item">
             <span className="year">2024</span>
-            <p>🥇 National Robotics Challenge – 1st Prize</p>
+            <p>National Robotics Challenge – 1st Prize</p>
           </div>
           <div className="timeline-item">
             <span className="year">2023</span>
-            <p>📄 Paper published at IEEE ICRA</p>
+            <p>Paper published at IEEE ICRA</p>
           </div>
           <div className="timeline-item">
             <span className="year">2022</span>
-            <p>💰 Innovation Grant from AICTE</p>
+            <p> Innovation Grant from AICTE</p>
           </div>
         </div>
       </section>
@@ -57,7 +60,7 @@ export default function Achievements() {
 
         <div className="achievement-grid">
           <div className="achievement-card">
-            <img src="/img/competition1.jpg" alt="competition" />
+            <img src="/img/drone.jpg" alt="competition" />
             <h3>National Robotics Challenge</h3>
             <p><strong>Year:</strong> 2024</p>
             <p><strong>Prize:</strong> 1st Place</p>
@@ -84,7 +87,7 @@ export default function Achievements() {
         <h2>Innovation Grants & Awards</h2>
 
         <div className="achievement-grid">
-          <div className="achievement-card">
+          <div className="achievement-card2">
             <h3>AICTE Innovation Grant</h3>
             <p><strong>Year:</strong> 2022</p>
             <p><strong>Amount:</strong> ₹2,50,000</p>
@@ -105,5 +108,7 @@ export default function Achievements() {
       </section>
 
     </div>
+    <Footer/>
+    </>
   );
 }

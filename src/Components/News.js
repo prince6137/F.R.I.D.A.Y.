@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/news.css";
 import Navbar from "./Navbar";
+import Footer from "./footer";
 const newsData = [
   {
     title: "Autonomous Drones Achieve Precision Landing",
@@ -82,7 +83,7 @@ export default function News() {
 
       {/* NEWSLETTER */}
       <div className="newsletter">
-        <h2>📬 Stay in the Loop</h2>
+        <h2> Stay in the Loop</h2>
         <p>
           Get robotics updates, event alerts, and tech insights delivered to your inbox.
         </p>
@@ -93,6 +94,8 @@ export default function News() {
         <small>*No spam. Just robots 🤖</small>
       </div>
 
-    </div></>
+    </div>
+    <Footer  />
+    </>
   );
 }

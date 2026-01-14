@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../css/project.css";
 import Navbar from "./Navbar";
-
+import Footer from "./footer";
 const projectsData = [
   {
     id: 1,
@@ -137,6 +137,8 @@ export default function Projects() {
           </div>
         </div>
       )}
-    </section></>
+    </section>
+    <Footer />
+    </>
   );
 }
