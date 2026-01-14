@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Project Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## a. Developer Information
+**Name:** Prince Kumar
+**Role:** Web Developer  
+**Contact:**  
+- Email: pyaduvanshi638@gmail.com
+- GitHub: https://github.com/prince6137 
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## b. Technology Choices & Reasons
 
-### `npm start`
+### Frontend
+- **React.js**
+  - Component-based architecture for reusable UI
+  - Efficient rendering using Virtual DOM
+  - Easy integration with modern libraries and tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **CSS**
+  - Used for custom styling and responsive layouts
+  - Ensures better control over UI design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Optional Tools
+- **React Router**
+  - Enables seamless navigation without page reloads
+- **JavaScript (ES6+)**
+  - Clean, modern syntax and better maintainability
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## c. Ensuring Future Scalability
 
-### `npm run build`
+To ensure scalability and maintainability of the project, the following practices were followed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Component Reusability**
+  - UI components (Footer, Navbar, Cards) are reusable across pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Modular Folder Structure**
+  - Separate folders for components, pages, and styles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Separation of Concerns**
+  - Logic, UI, and styling are handled separately
 
-### `npm run eject`
+- **Easy Feature Expansion**
+  - New pages or features can be added without affecting existing code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Responsive Design**
+  - Ensures compatibility with mobile, tablet, and desktop devices
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## d. External Resources / Images Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Google Fonts** – for typography  
+  https://fonts.google.com/
 
-## Learn More
+- **Icons**
+  - Font Awesome / Lucide Icons  
+  https://fontawesome.com/  
+  https://lucide.dev/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Images**
+  - Unsplash (free stock images)  
+  https://unsplash.com/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> All external assets used are free for commercial and educational purposes.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## e. Setup Instructions
 
-### Analyzing the Bundle Size
+### Prerequisites
+- Node.js (v16 or above)
+- npm or yarn installed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Steps to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/project-name.git
