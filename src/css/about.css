@@ -372,7 +372,7 @@
 
 /* Activities */
 .container img {
-    width: 450px;
+    width: 250px;
     height: 300px;
     margin: 10px;
     border: 10px solid #fefae0;
@@ -447,4 +447,8 @@
 
 .lab-card:hover {
   transform: translateY(-8px);
+}
+@media  (max-width: 890px) {
+ 
+
 }

@@ -94,7 +94,12 @@ a:hover {
 }
 /* Responsive media query code for small screen */
 @media (max-width: 890px) {
- 
+{
+    width: 100%;
+    text-align: center; 
+    margin-left: 0;
+    padding-left: 0;  
+ }
   .checkbtn {
     display: block;
   }

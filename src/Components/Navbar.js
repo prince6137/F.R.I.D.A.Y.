@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <input type="checkbox" id="check" />
 
       <label htmlFor="check" className="checkbtn">
