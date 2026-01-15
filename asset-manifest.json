@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/F.R.I.D.A.Y/static/css/main.1e2fd029.css",
+    "main.js": "/F.R.I.D.A.Y/static/js/main.8f1ea5a1.js",
+    "static/js/453.67b5bc7b.chunk.js": "/F.R.I.D.A.Y/static/js/453.67b5bc7b.chunk.js",
+    "index.html": "/F.R.I.D.A.Y/index.html",
+    "main.1e2fd029.css.map": "/F.R.I.D.A.Y/static/css/main.1e2fd029.css.map",
+    "main.8f1ea5a1.js.map": "/F.R.I.D.A.Y/static/js/main.8f1ea5a1.js.map",
+    "453.67b5bc7b.chunk.js.map": "/F.R.I.D.A.Y/static/js/453.67b5bc7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e2fd029.css",
+    "static/js/main.8f1ea5a1.js"
+  ]
+}
